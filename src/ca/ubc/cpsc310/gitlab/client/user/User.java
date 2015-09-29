@@ -1,31 +1,7 @@
 package ca.ubc.cpsc310.gitlab.client.user;
 
 import java.util.ArrayList;
-<<<<<<< HEAD
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
-import ca.ubc.cpsc310.gitlab.client.products.ProductItem;
-
-@SuppressWarnings("unchecked")
-public class User implements IUser {
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = -6968277136462621810L;
-	private final String LANG = "LANG";
-	private final String NAME = "NAME";
-	private final String WISHLIST = "WISHLIST";
-	private final String SHOPPINGCART = "SHOPPINGCART";
-	
-	private Map<String, Object> data = new HashMap<String, Object>();
-	public User()
-	{
-		data.put(WISHLIST, new ArrayList<Object>());
-		data.put(SHOPPINGCART, new ArrayList<Object>());
-=======
 import java.util.List;
 
 import ca.ubc.cpsc310.gitlab.client.products.ProductItem;
